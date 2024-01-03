@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient( to bottom, blueviolet, black);
+    height: 100vh;
+}
+
+.nav {
+    background: -webkit-linear-gradient(black, blueviolet);
+}
+
+#main-container, #fav-container {
+    background: -webkit-linear-gradient(blueviolet, black);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
